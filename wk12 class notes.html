@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Week12 Project</title>
+    <link rel="stylesheet" href="wk12 class notes.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+      defer
+    ></script>
+    <script src="wk12 class notes.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="body">
+        <h1 id="title-head">Rick Sanchez</h1>
+        <div id="main-img">
+          <a href="http://rickandmorty.wikia.com/wiki/Rick_Sanchez">
+            <img
+              class="img-rounded"
+              alt="Get Schwifty"
+              id="get-schwifty"
+              src="https://i.ytimg.com/vi/UFFi9PWKDjg/maxresdefault.jpg"
+              width="500"
+              height="281"
+            />
+          </a>
+          <p id="photo-caption">
+            <em>Rick and his homies, gettin' schwifty.</em>
+          </p>
+          <div class="linkfooter">
+            <p>Select your favorite episode</p>
+            <select id="dropdown" type="text">
+              <option>Select an episode</option>
+            </select>
+            <button id="delete-btn" class="btn btn-danger">
+              Delete Episode
+            </button>
+            <button id="toggle-form-btn" class="btn btn-primary">
+              Add Episode
+            </button>
+          </div>
+          <div id="form-container" style="display: none;">
+            <form id="create-form">
+              <div class="form-group">
+                <label for="Name">Name:</label>
+                <input class="form-control" type="text" id="name" name="name" />
+              </div>
+              <div class="form-group">
+                <label for="image">Image URL:</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="image"
+                  name="image"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

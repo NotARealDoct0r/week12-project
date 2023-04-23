@@ -1,0 +1,72 @@
+/* referencing html file */
+html,
+
+/* styling body, customizing display */
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: yellow !important;
+}
+
+/* setting color and font size */
+#title-head {
+  color: white;
+  font-size: 55px;
+}
+
+/* adjusting background color, text color / size / centering */
+#body {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* setting how the image is being displayed */
+#main-img {
+  margin: auto;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 15px;
+}
+
+#get-schwifty {
+  max-width: 750px;
+  height: auto;
+}
+#photo-caption {
+  font-size: 16px;
+  color: white;
+}
+#timeline {
+  border-radius: 15px;
+  background-color: black;
+}
+img:hover {
+  border: solid 0.3px black;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+div > p {
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.container {
+  width: 100%;
+  background-color: black;
+}
+
+#form-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.alert-danger {
+  width: 50% !important;
+  margin: 0 auto;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Neighborhood App</title>
+    <!-- referencing bootstrap -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<!-- define body as a container class -->
+<body class="container">
+    <!-- give this div a unique id + class from bootstrap -->
+    <div id="new-condo" class="jumbotron">
+        <h2>New Condos!</h2>
+        <!-- 2 more bootstrap classes for styling below-->
+        <input type="text" id="new-condo-name" class="form-control"> <br>
+        <button id="create-new-condo" class="btn btn-primary form-control">Create</button>
+    </div>
+    <!-- to be able to read new condos using ajax from API -->
+    <div id="application">
+
+    </div>
+    <!-- referencing jquery (minified version), JavaScript file, and bootstrap -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="week12 project.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
